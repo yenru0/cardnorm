@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>289</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">#central {
+	
+	background-color: rgba(255, 255, 255, 100);
+}</string>
+  </property>
+  <widget class="QWidget" name="central">
+   <layout class="QGridLayout" name="centralLayout" columnstretch="3,1">
+    <item row="0" column="0">
+     <widget class="QLabel" name="banner">
+      <property name="font">
+       <font>
+        <family>돋움</family>
+        <pointsize>72</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>카드</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="QPushButton" name="btn_create">
+      <property name="font">
+       <font>
+        <family>맑은 고딕</family>
+        <pointsize>32</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+	padding-top: 24px;
+	padding-bottom: 24px;
+}</string>
+      </property>
+      <property name="text">
+       <string>생성</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
